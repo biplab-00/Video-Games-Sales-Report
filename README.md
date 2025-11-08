@@ -1,2 +1,7 @@
 # Video-Games-Sales-Report
 SQL and Power Bi project
+
+This Power BI project presents a comprehensive dashboard analysing global video games sales using the "vgsales.csv" dataset which was downloaded from Kaggle.com, offering interactive insights across platforms, genre, publishers, and regions from 1980 to 2020. It features key performance indicators, top-performing titles and companies, regional breakdowns, time-series trends, and publisher comparisons, all enhanced with slicers for genre, platforms, publishers, and year. The dashboard reveals strategic insights such as Nintendo’s dominance, the peak sales era of 2006–2010, the strength of North American and European markets, and the slightly down Japanese market. It also highlights genre popularity, platform performance, and average sales efficiency, making it a valuable tool for market analysis, business strategy, and data storytelling. It also offers some strategic recommendations for better marketing of the video games.
+
+                                   The tools that have been used in this complete project are PostgreSQL and Microsoft Power Bi.  At first a database was created in PostgreSQL and then the “vgsales.csv” file was imported in that database. Then four dimension tables were created from the main dataset(“vgsales.csv”) in PostgreSQL. After that all the tables were loaded to Microsoft Power Bi by connecting the database for further cleaning and preparation of the data.  After preparing the data finally all the visualizations were created in Microsoft Power Bi.
+
